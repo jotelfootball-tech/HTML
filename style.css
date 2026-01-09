@@ -7,11 +7,7 @@
 }
 
 /* BODY */
-body {
-  background: linear-gradient(135deg, #5b2a14, #8a4a23);
-  color: #fff;
-  min-height: 100vh;
-}
+
 
 /* HEADER */
 header {
@@ -101,4 +97,9 @@ button:last-child:hover {
 section img {
   width: 420px;
   max-width: 100%;
+}
+
+
+h4{
+  color: chocolate;
 }
