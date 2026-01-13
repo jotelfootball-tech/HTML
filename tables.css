@@ -1,0 +1,32 @@
+.container{
+  padding: 50px;
+  /* border: solid; */
+  width: 200px;
+  /* margin: auto; */
+  font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+    text-align: center;
+    display: flex;
+
+}
+
+.container td {
+  padding: 20px;
+  border: 1px solid;
+  background-color: rgb(233, 243, 243);
+  text-align: left;
+}
+.container th{
+  background-color: cadetblue;
+  padding: 10px;
+}
+ 
+.container td:hover{
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
