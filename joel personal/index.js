@@ -27,4 +27,14 @@ let secondname ="Joel";
 console.log (firstname+secondname);
 
 
+let x = 20;
+let y = 7;
+
+console.log(x + y);
+console.log(x % y);
+console.log(x === y);
+console.log(x > y);
+
+let message = "I am learning " + "JavaScript";
+console.log(message);
 
