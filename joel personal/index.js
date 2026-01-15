@@ -1,16 +1,30 @@
 console.log("hello joel");
 
- alert("I am learning Javascript!");
-  
+//  lesson 2
+let myname ="Joel";
+let myage =18;
+let islearningJS =true;
+const language = "Yoruba";
 
- let name = "Excellent";
-let age = 25;
-let isLearningJS = true;
+console.log (myname);
+console.log (myage);
+console.log (islearningJS);
+console.log (language);
 
-console.log(name);
-console.log(age);
-console.log(isLearningJS);
+// lesson 3
+// arithmetic operation 
+let a =10;
+let b =2;
+
+console.log (a+b);
+console.log (a-b);
+console.log (a/b);
+console.log (a*b);
+// string connection
+let firstname ="Ogunmodede";
+let secondname ="Joel";
+
+console.log (firstname+secondname);
 
 
 
-  
