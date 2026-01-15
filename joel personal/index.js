@@ -1,3 +1,2 @@
-alert("Hello fans");
-  alert("Hello fans")
-  alert("Hello fans")
+ console.log("hello joel");
+  
