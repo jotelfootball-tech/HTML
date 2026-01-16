@@ -1,22 +1,21 @@
 img{
   width: 100px;
-  height: 100px;
+  height: auto;
   margin-top: auto;
-  border-radius: 500px;
+  border-radius: 50%;
 }
 
 .container{
+display: flex;
+justify-content: center;
+align-items: center;
 padding: 40px;
-margin: auto;
-text-align:center;
-margin-top: 50px;
+text-align: center;
 background-color: rgb(245, 242, 239);
 width: 220px;
-height: 220px;
+height: auto;
 border-radius: 10px;
-margin-right:  auto;
-margin-left: 350px;
- 
+flex-direction: column;
 }
 
 .ft-button{
@@ -33,13 +32,17 @@ margin-left: 350px;
 .ft-button:hover{
   background-color: rgb(255, 255, 255) ;
   color: rgb(32, 38, 39);
-  transition: 0.5s;
+  transition:all 0.5s ease;
+  transform: translateY(-5px);
+  /* box-shadow: 1px 1px 1px black; */
+  
 }
 
 .container:hover{
   background-color: rgb(202, 221, 233);
-  transition: 0.5s;
+  transition:all 0.5s ease;
   box-shadow: 2px 2px 5px black;
+  transform: translateY(-5px);
 }
 
 body{
@@ -49,34 +52,33 @@ body{
 
 .contain{
   padding: 40px;
-margin-left:  auto;
-text-align:center;
-margin-top: auto;
+text-align: center; 
 background-color: rgb(245, 242, 239);
 width: 220px;
-height: 220px;
+height: auto;
 border-radius: 10px;
- margin-right: 350px ;
+
+
 
 }
 
 .contain:hover{
   background-color: rgb(202, 221, 233);
-  transition: 0.5s;
+  transition:all 0.5s ease;
   box-shadow: 2px 2px 5px black;
+  transform: translateY(-5px);
 }
 
 .card-wrapper{
 display: flex;
-gap: 30px;
 justify-content: center;
-text-align: center;
-margin-top: 100px;
+align-items: center;
+min-height: 100vh;
+gap: 10px;
 }
 
 
  body {
-   
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
