@@ -1,0 +1,100 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+  background-color:#FFFFFF;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+}
+
+body{ 
+/* background: linear-gradient(to right, rgb(44, 2, 44), rgb(221, 4, 69)); */
+background-color:  rgb(247, 242, 218);
+font-family:'Livvic', sans-serif;
+color: white;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+}
+
+header img{
+  width: 120px;
+  margin-left: 35px;
+}
+
+header ul li{
+  margin-right: 20px;
+  font-weight: 500;
+}
+
+header a{
+ text-decoration: none;
+ color: rgb(0, 0, 0);
+}
+
+header button{
+width: 113px;
+height: 46px;
+gap: 48px;
+background-color: black;
+color: #FFFFFF;
+font-weight: 300;
+margin-right: 30px;
+border-radius: 5px;
+border: none;
+}
+
+section{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 44px;
+    /* vertical-align: auto; */
+}
+
+.custom{
+width: 200px;
+height: 46px;
+gap: 48px;
+background-color: black;
+color: #FFFFFF;
+font-weight: 300;
+border-radius: 5px;
+border: none;
+ margin-left: 50px;
+}
+
+section p{
+  margin: 24px 0;
+  font-size: 14px;
+  font-family: "Livvic", sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  color: rgb(0, 0, 0);
+   margin-left: 50px;
+}
+
+section img{
+  max-width: 400px;
+  object-fit: contain;
+  margin-right: 100px;
+}
+
+section h1{
+  font-size: 44px;
+    font-family: "Livvic", sans-serif;
+     font-weight: 500;
+     font-style: bold;
+    line-height: 100%;
+    letter-spacing: 1%;
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
