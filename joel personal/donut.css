@@ -47,15 +47,17 @@ header button{
 
 }
 section{
- 
-display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+/* display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
     padding: 10px 44px;
-    margin: 50px;
+    /* margin: 50px;
   background-color: rgb(179, 13, 96);
   border-radius: 20px;
-  
+   */
 }
 section h1{
   font-size: 64px;
