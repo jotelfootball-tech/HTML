@@ -1,0 +1,40 @@
+1:Explain the CSS Box Model and list its four parts in the correct order.
+Ans:1.content.
+    2.padding.
+    3.border.
+    4.margin.
+
+2:What is the difference between margin and padding?
+Ans: The difference between margin and padding is MARGIN contains both the border and the padding
+     #WHILE#
+   
+     PADDING is inisde the margin and the border.
+2b:Give one practical use case for each.
+Ans:One pratical example is when a tag eg  is formed 
+padding help to create space
+
+3:Why is semantic HTML important?
+Ans:i; semantic tags are known identifier that helps specific HTML tags, attribute and element.
+ii; semantic tags are also known as container that classify HTML tags, attribute and element.
+
+4:Explain the difference between Flexbox and CSS Grid.
+Ans:flex and grid are almost the same because the both are used for alignment but the difference between them are the syntax and a developer prefer using grip because it help to align many items and that is what make grid better flex
+
+5:What does display: flex; do to an element and its children?
+Ans:it is used for alignment depending on the column
+
+6:Why is the alt attribute important in images?
+Ans: alt attribute is important because in cases whereby the image does not shows
+ it will indicate that should be an image there
+Those who benefit from it are both the developer and the user 
+
+7:What happens when two CSS rules target the same element
+Ans:it picks the one with the higher specificity
+ 
+ Briefly explain CSS specificity
+ this happens when when two CSS rules target the same element
+
+
+
+
+
