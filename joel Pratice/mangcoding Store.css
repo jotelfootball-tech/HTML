@@ -1,0 +1,164 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'poppins', sans-serif;
+    background: rgb(237, 247, 248);
+}
+header img{
+  width: 190px;
+  padding-left: 20px;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px;
+  font-family: 'poppins', sans-serif;
+  background-color: rgb(237, 247, 248);
+  box-shadow: 1px 2px 10px rgba( 0, 0, 0, 0.2);
+  
+ 
+}
+header ul{
+  list-style: none;
+  display: flex;
+}
+header ul li{
+  text-decoration: none;
+}
+header ul a{
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+.log-in{
+  background-color: transparent;
+  color: #545BE8;
+  border: 1px solid #545BE8;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  
+}
+.register{
+  background-color: #545BE8;
+  color: white;
+  border: none;
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.button-container{
+  display: flex;
+  gap: 10px;
+}
+.play-video{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 140px;
+  height: 40px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.lets-begin{
+  color: #545BE8;
+}
+.bold-word{
+  font-weight: 900;
+}
+.Course{
+   color: #545BE8;
+}
+.Lorem{
+  color: #969696;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.heros{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'poppins', sans-serif;
+
+  background: white;
+   
+}
+.div-one{
+margin-left: 30px;
+ margin-top: 20px;
+}
+.heros h1{
+  font-weight: 700;
+  font-size: 60px;
+  letter-spacing: 1%;
+}
+.sec-button{
+  margin-top: 20px;
+}
+.heros img{
+   width: 500px;
+  object-fit: contain;
+  
+}
+/* hr{
+  border: none ;
+  background: transparent;
+  box-shadow: 0px 2px 6px rgba( 0, 0, 0, 0.2);
+  height: 1px;
+  
+} */
+ .features{
+  background: rgb(237, 247, 248);
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+ }
+.features h2{
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: 1%;
+  margin-top: 15px;
+
+}
+.main-p{
+  color: #545BE8;
+}
+.ipsum{
+  font-size: 15px;
+  color: #969696;
+  margin-top: 15px;
+}
+.div-two{
+ margin-top: 50px;
+ 
+}
+.card{
+  padding: 30px;
+  background-color: #545BE8;
+  color: white;
+  border-radius: 20px;
+  width: 260px;
+  height: fit-content;
+  font-size: 12px;
+   
+}
+.class p{
+  margin-top: 5px;
+}
+.container{
+  display: flex;
+  gap: 60px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
